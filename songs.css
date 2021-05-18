@@ -1,0 +1,61 @@
+.section-header {
+    color: rgb(62, 94, 109);
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  table {
+    width: 100%;
+    border-spacing: 0px;
+  }
+       
+  td {
+    text-align: center;
+    padding: 10px 15px;
+  }
+ 
+  .text-left { text-align: left; }
+   .text-left img{
+      width: 100px;
+      height:50px;
+   }
+  th {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+ 
+  tr:nth-child(odd) { background-color: #e5e8ed; }
+ 
+ 
+  tr.tr-header {
+    background-color: rgb(62, 94, 109);
+    height: 50px;
+
+  }
+  .click {
+    align-items: center;
+     width: 130px;
+     height:40px;
+     margin-left: 90px;
+     line-height: 40px;
+    border:2px rgb(62, 94, 109) solid;
+    border-radius: 30px;
+  }
+  .click:hover{
+    background-color:rgb(62, 94, 109) ;
+    color: white;
+    cursor: pointer;
+  }
+   
+  .section {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3Idiots-feedback form</title>
+    <link rel="stylesheet" href="idiots.css">
+</head>
+<body style="background:rgb(62, 94, 109) ; ;">
+    <div>
+        <nav>
+            <input type="checkbox" id ="check">
+                <label for="check" class="checkbtn">
+                <i class="fas"><img src="images/menu.jpg" alt=""></i></label>
+            <img src="images/logo.jpeg" alt="" class="logo">
+            <ul class="active" >
+                <li><a href="idots.html">home</a></li>
+                <li><a href="songs.html">movie song</a></li>
+                <li><a href="Scenes.html">movie scenes</a></li>
+                <li><a href="starcast.html">StarCast</a></li>
+                <li><a href="feedback.html">feedback</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </div>
+
+    <div class="wrapper">
+        <div class="title">
+            <h2>Feedback Form</h2>
+        </div>
+        <div class="form">
+        <form action="post">
+            <div class="input-field">
+                <label >Full Name</label>
+                <input type="text" class="input" id="name">
+            </div>
+            <div class="input-field">
+                <label >Contact No</label>
+                <input type="text" class="input">
+            </div>
+            <div class="input-field">
+                <label >Email-id</label>
+                <input type="email" class="input">
+            </div>
+            <div class="input-field">
+                <label >what you like to watch</label>
+                    <div class="select-here">
+                        <select >
+                        <option value="">select</option>
+                        <option value="Movies">Movies</option>
+                        <option value="webseries">Web Series</option>
+                        <option value="tvSerials">TV serials</option>
+                        <option value="cartoon">Cartoon</option>
+                    </select>
+                    </div>
+             </div>
+             <div class="input-field">
+                <label >Message</label>
+                <textarea class="textarea"></textarea>
+            </div>
+            <div class="input-field">
+                <input type="submit"value="Submit" id="submit" class="btn">
+            </div>
+
+        </form>
+        </div>
+    </div>
+</body>
+</html>
